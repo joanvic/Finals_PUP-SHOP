@@ -164,7 +164,7 @@ namespace Finals
                         break;
 
                     case "5":
-                        // show contents of cart
+                        
                         int totalAmount5 = 0;
                         int Price = 0;
                         Console.WriteLine("");
@@ -173,12 +173,12 @@ namespace Finals
                         {
                             Console.WriteLine("Your cart is empty.");
                         }
-                        //shows the total amount
+                        
                         else
                         {
 
 
-                            // remove items in the cart 
+                            
                             Console.WriteLine("Enter the number of the item you want to remove, or enter 0 to go back:");
                             int itemToRemove = int.Parse(Console.ReadLine());
 
