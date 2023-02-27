@@ -193,7 +193,7 @@ namespace Finals
 
 
                     case "6":
-                        // exit the program
+                        
                         Console.WriteLine("SALAMAT SA PAG GAMIT KA ISKO/ISKA");
                         return;
 
