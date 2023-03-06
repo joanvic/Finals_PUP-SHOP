@@ -32,7 +32,7 @@ namespace Finals
             string name;
             int num;
 
-            Console.WriteLine(" ____________________________");
+            Console.WriteLine(" ____________________________________");
             Console.WriteLine("| PRESS ENTER TO ACCESS THE PROGRAM  |");
             Console.WriteLine("|____________________________________|");
             Console.ReadLine();
@@ -173,7 +173,7 @@ namespace Finals
                         {
                             Console.WriteLine("Your cart is empty.");
                         }
-                        //shows the total amount
+                        //shows the item count
                         else
                         {
 
