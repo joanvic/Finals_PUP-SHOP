@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -164,7 +164,7 @@ namespace Finals
                         break;
 
                     case "5":
-                        
+                        // show contents of cart
                         int totalAmount5 = 0;
                         int Price = 0;
                         Console.WriteLine("");
@@ -173,12 +173,19 @@ namespace Finals
                         {
                             Console.WriteLine("Your cart is empty.");
                         }
-                        
+                        //shows the total amount
                         else
                         {
 
+                            foreach (string item in cartlist)
+                            {
+                                Console.WriteLine(item);
+                            }
 
-                            
+                            Console.WriteLine($"Total items: {cartlist.Count} items"); ;
+
+
+                            // remove items in the cart 
                             Console.WriteLine("Enter the number of the item you want to remove, or enter 0 to go back:");
                             int itemToRemove = int.Parse(Console.ReadLine());
 
@@ -193,7 +200,7 @@ namespace Finals
 
 
                     case "6":
-                        
+                        // exit the program
                         Console.WriteLine("SALAMAT SA PAG GAMIT KA ISKO/ISKA");
                         return;
 
